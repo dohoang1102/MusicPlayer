@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE8E180F139C2A1600BE8A73 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8E180E139C2A1600BE8A73 /* UIKit.framework */; };
+		CE8E1811139C2A1600BE8A73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8E1810139C2A1600BE8A73 /* Foundation.framework */; };
+		CE8E1813139C2A1600BE8A73 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8E1812139C2A1600BE8A73 /* CoreGraphics.framework */; };
+		CE8E1819139C2A1600BE8A73 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE8E1817139C2A1600BE8A73 /* InfoPlist.strings */; };
+		CE8E181C139C2A1600BE8A73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E181B139C2A1600BE8A73 /* main.m */; };
+		CE8E181F139C2A1600BE8A73 /* MusicPlayerTesterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E181E139C2A1600BE8A73 /* MusicPlayerTesterAppDelegate.m */; };
+		CE8E1822139C2A1600BE8A73 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE8E1820139C2A1600BE8A73 /* MainWindow.xib */; };
+		CE8E1825139C2A1600BE8A73 /* MusicPlayerTesterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E1824139C2A1600BE8A73 /* MusicPlayerTesterViewController.m */; };
+		CE8E1828139C2A1600BE8A73 /* MusicPlayerTesterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE8E1826139C2A1600BE8A73 /* MusicPlayerTesterViewController.xib */; };
+		CE8E182F139C2A1600BE8A73 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8E180E139C2A1600BE8A73 /* UIKit.framework */; };
+		CE8E1830139C2A1600BE8A73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8E1810139C2A1600BE8A73 /* Foundation.framework */; };
+		CE8E1831139C2A1600BE8A73 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8E1812139C2A1600BE8A73 /* CoreGraphics.framework */; };
+		CE8E1839139C2A1600BE8A73 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE8E1837139C2A1600BE8A73 /* InfoPlist.strings */; };
+		CE8E183C139C2A1600BE8A73 /* MusicPlayerTesterTests.h in Resources */ = {isa = PBXBuildFile; fileRef = CE8E183B139C2A1600BE8A73 /* MusicPlayerTesterTests.h */; };
+		CE8E183E139C2A1600BE8A73 /* MusicPlayerTesterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E183D139C2A1600BE8A73 /* MusicPlayerTesterTests.m */; };
+		CE8E1849139C2A4600BE8A73 /* MusicPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E1848139C2A4600BE8A73 /* MusicPlayerView.m */; };
+		CE8E185F139C39D800BE8A73 /* MusicPlayerCore.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E185E139C39D800BE8A73 /* MusicPlayerCore.m */; };
+		CE8E1862139C442200BE8A73 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8E1861139C442200BE8A73 /* CoreAudio.framework */; };
+		CE8E1864139C443500BE8A73 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8E1863139C443500BE8A73 /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE8E1832139C2A1600BE8A73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE8E1801139C2A1600BE8A73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE8E1809139C2A1600BE8A73;
+			remoteInfo = MusicPlayerTester;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE8E180A139C2A1600BE8A73 /* MusicPlayerTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayerTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8E180E139C2A1600BE8A73 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE8E1810139C2A1600BE8A73 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE8E1812139C2A1600BE8A73 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE8E1816139C2A1600BE8A73 /* MusicPlayerTester-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MusicPlayerTester-Info.plist"; sourceTree = "<group>"; };
+		CE8E1818139C2A1600BE8A73 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE8E181A139C2A1600BE8A73 /* MusicPlayerTester-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MusicPlayerTester-Prefix.pch"; sourceTree = "<group>"; };
+		CE8E181B139C2A1600BE8A73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE8E181D139C2A1600BE8A73 /* MusicPlayerTesterAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicPlayerTesterAppDelegate.h; sourceTree = "<group>"; };
+		CE8E181E139C2A1600BE8A73 /* MusicPlayerTesterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicPlayerTesterAppDelegate.m; sourceTree = "<group>"; };
+		CE8E1821139C2A1600BE8A73 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		CE8E1823139C2A1600BE8A73 /* MusicPlayerTesterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicPlayerTesterViewController.h; sourceTree = "<group>"; };
+		CE8E1824139C2A1600BE8A73 /* MusicPlayerTesterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicPlayerTesterViewController.m; sourceTree = "<group>"; };
+		CE8E1827139C2A1600BE8A73 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MusicPlayerTesterViewController.xib; sourceTree = "<group>"; };
+		CE8E182E139C2A1600BE8A73 /* MusicPlayerTesterTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicPlayerTesterTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8E1836139C2A1600BE8A73 /* MusicPlayerTesterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MusicPlayerTesterTests-Info.plist"; sourceTree = "<group>"; };
+		CE8E1838139C2A1600BE8A73 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE8E183A139C2A1600BE8A73 /* MusicPlayerTesterTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MusicPlayerTesterTests-Prefix.pch"; sourceTree = "<group>"; };
+		CE8E183B139C2A1600BE8A73 /* MusicPlayerTesterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicPlayerTesterTests.h; sourceTree = "<group>"; };
+		CE8E183D139C2A1600BE8A73 /* MusicPlayerTesterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicPlayerTesterTests.m; sourceTree = "<group>"; };
+		CE8E1847139C2A4600BE8A73 /* MusicPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicPlayerView.h; sourceTree = "<group>"; };
+		CE8E1848139C2A4600BE8A73 /* MusicPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicPlayerView.m; sourceTree = "<group>"; };
+		CE8E185D139C39D800BE8A73 /* MusicPlayerCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicPlayerCore.h; sourceTree = "<group>"; };
+		CE8E185E139C39D800BE8A73 /* MusicPlayerCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicPlayerCore.m; sourceTree = "<group>"; };
+		CE8E1861139C442200BE8A73 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		CE8E1863139C443500BE8A73 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE8E1807139C2A1600BE8A73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8E1864139C443500BE8A73 /* AudioToolbox.framework in Frameworks */,
+				CE8E1862139C442200BE8A73 /* CoreAudio.framework in Frameworks */,
+				CE8E180F139C2A1600BE8A73 /* UIKit.framework in Frameworks */,
+				CE8E1811139C2A1600BE8A73 /* Foundation.framework in Frameworks */,
+				CE8E1813139C2A1600BE8A73 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE8E182A139C2A1600BE8A73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8E182F139C2A1600BE8A73 /* UIKit.framework in Frameworks */,
+				CE8E1830139C2A1600BE8A73 /* Foundation.framework in Frameworks */,
+				CE8E1831139C2A1600BE8A73 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE8E17FF139C2A1600BE8A73 = {
+			isa = PBXGroup;
+			children = (
+				CE8E1814139C2A1600BE8A73 /* MusicPlayerTester */,
+				CE8E1834139C2A1600BE8A73 /* MusicPlayerTesterTests */,
+				CE8E180D139C2A1600BE8A73 /* Frameworks */,
+				CE8E180B139C2A1600BE8A73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE8E180B139C2A1600BE8A73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE8E180A139C2A1600BE8A73 /* MusicPlayerTester.app */,
+				CE8E182E139C2A1600BE8A73 /* MusicPlayerTesterTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE8E180D139C2A1600BE8A73 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE8E1863139C443500BE8A73 /* AudioToolbox.framework */,
+				CE8E1861139C442200BE8A73 /* CoreAudio.framework */,
+				CE8E180E139C2A1600BE8A73 /* UIKit.framework */,
+				CE8E1810139C2A1600BE8A73 /* Foundation.framework */,
+				CE8E1812139C2A1600BE8A73 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE8E1814139C2A1600BE8A73 /* MusicPlayerTester */ = {
+			isa = PBXGroup;
+			children = (
+				CE8E181D139C2A1600BE8A73 /* MusicPlayerTesterAppDelegate.h */,
+				CE8E181E139C2A1600BE8A73 /* MusicPlayerTesterAppDelegate.m */,
+				CE8E1820139C2A1600BE8A73 /* MainWindow.xib */,
+				CE8E1847139C2A4600BE8A73 /* MusicPlayerView.h */,
+				CE8E1848139C2A4600BE8A73 /* MusicPlayerView.m */,
+				CE8E1823139C2A1600BE8A73 /* MusicPlayerTesterViewController.h */,
+				CE8E1824139C2A1600BE8A73 /* MusicPlayerTesterViewController.m */,
+				CE8E185D139C39D800BE8A73 /* MusicPlayerCore.h */,
+				CE8E185E139C39D800BE8A73 /* MusicPlayerCore.m */,
+				CE8E1826139C2A1600BE8A73 /* MusicPlayerTesterViewController.xib */,
+				CE8E1815139C2A1600BE8A73 /* Supporting Files */,
+			);
+			path = MusicPlayerTester;
+			sourceTree = "<group>";
+		};
+		CE8E1815139C2A1600BE8A73 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE8E1816139C2A1600BE8A73 /* MusicPlayerTester-Info.plist */,
+				CE8E1817139C2A1600BE8A73 /* InfoPlist.strings */,
+				CE8E181A139C2A1600BE8A73 /* MusicPlayerTester-Prefix.pch */,
+				CE8E181B139C2A1600BE8A73 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE8E1834139C2A1600BE8A73 /* MusicPlayerTesterTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE8E183B139C2A1600BE8A73 /* MusicPlayerTesterTests.h */,
+				CE8E183D139C2A1600BE8A73 /* MusicPlayerTesterTests.m */,
+				CE8E1835139C2A1600BE8A73 /* Supporting Files */,
+			);
+			path = MusicPlayerTesterTests;
+			sourceTree = "<group>";
+		};
+		CE8E1835139C2A1600BE8A73 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE8E1836139C2A1600BE8A73 /* MusicPlayerTesterTests-Info.plist */,
+				CE8E1837139C2A1600BE8A73 /* InfoPlist.strings */,
+				CE8E183A139C2A1600BE8A73 /* MusicPlayerTesterTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE8E1809139C2A1600BE8A73 /* MusicPlayerTester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE8E1841139C2A1600BE8A73 /* Build configuration list for PBXNativeTarget "MusicPlayerTester" */;
+			buildPhases = (
+				CE8E1806139C2A1600BE8A73 /* Sources */,
+				CE8E1807139C2A1600BE8A73 /* Frameworks */,
+				CE8E1808139C2A1600BE8A73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MusicPlayerTester;
+			productName = MusicPlayerTester;
+			productReference = CE8E180A139C2A1600BE8A73 /* MusicPlayerTester.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE8E182D139C2A1600BE8A73 /* MusicPlayerTesterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE8E1844139C2A1600BE8A73 /* Build configuration list for PBXNativeTarget "MusicPlayerTesterTests" */;
+			buildPhases = (
+				CE8E1829139C2A1600BE8A73 /* Sources */,
+				CE8E182A139C2A1600BE8A73 /* Frameworks */,
+				CE8E182B139C2A1600BE8A73 /* Resources */,
+				CE8E182C139C2A1600BE8A73 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE8E1833139C2A1600BE8A73 /* PBXTargetDependency */,
+			);
+			name = MusicPlayerTesterTests;
+			productName = MusicPlayerTesterTests;
+			productReference = CE8E182E139C2A1600BE8A73 /* MusicPlayerTesterTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE8E1801139C2A1600BE8A73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Home;
+			};
+			buildConfigurationList = CE8E1804139C2A1600BE8A73 /* Build configuration list for PBXProject "MusicPlayerTester" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE8E17FF139C2A1600BE8A73;
+			productRefGroup = CE8E180B139C2A1600BE8A73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE8E1809139C2A1600BE8A73 /* MusicPlayerTester */,
+				CE8E182D139C2A1600BE8A73 /* MusicPlayerTesterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE8E1808139C2A1600BE8A73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8E1819139C2A1600BE8A73 /* InfoPlist.strings in Resources */,
+				CE8E1822139C2A1600BE8A73 /* MainWindow.xib in Resources */,
+				CE8E1828139C2A1600BE8A73 /* MusicPlayerTesterViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE8E182B139C2A1600BE8A73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8E1839139C2A1600BE8A73 /* InfoPlist.strings in Resources */,
+				CE8E183C139C2A1600BE8A73 /* MusicPlayerTesterTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CE8E182C139C2A1600BE8A73 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE8E1806139C2A1600BE8A73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8E181C139C2A1600BE8A73 /* main.m in Sources */,
+				CE8E181F139C2A1600BE8A73 /* MusicPlayerTesterAppDelegate.m in Sources */,
+				CE8E1825139C2A1600BE8A73 /* MusicPlayerTesterViewController.m in Sources */,
+				CE8E1849139C2A4600BE8A73 /* MusicPlayerView.m in Sources */,
+				CE8E185F139C39D800BE8A73 /* MusicPlayerCore.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE8E1829139C2A1600BE8A73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8E183E139C2A1600BE8A73 /* MusicPlayerTesterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE8E1833139C2A1600BE8A73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE8E1809139C2A1600BE8A73 /* MusicPlayerTester */;
+			targetProxy = CE8E1832139C2A1600BE8A73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE8E1817139C2A1600BE8A73 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE8E1818139C2A1600BE8A73 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE8E1820139C2A1600BE8A73 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE8E1821139C2A1600BE8A73 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		CE8E1826139C2A1600BE8A73 /* MusicPlayerTesterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE8E1827139C2A1600BE8A73 /* en */,
+			);
+			name = MusicPlayerTesterViewController.xib;
+			sourceTree = "<group>";
+		};
+		CE8E1837139C2A1600BE8A73 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE8E1838139C2A1600BE8A73 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE8E183F139C2A1600BE8A73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE8E1840139C2A1600BE8A73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		CE8E1842139C2A1600BE8A73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MusicPlayerTester/MusicPlayerTester-Prefix.pch";
+				INFOPLIST_FILE = "MusicPlayerTester/MusicPlayerTester-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE8E1843139C2A1600BE8A73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MusicPlayerTester/MusicPlayerTester-Prefix.pch";
+				INFOPLIST_FILE = "MusicPlayerTester/MusicPlayerTester-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CE8E1845139C2A1600BE8A73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MusicPlayerTester.app/MusicPlayerTester";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MusicPlayerTesterTests/MusicPlayerTesterTests-Prefix.pch";
+				INFOPLIST_FILE = "MusicPlayerTesterTests/MusicPlayerTesterTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CE8E1846139C2A1600BE8A73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MusicPlayerTester.app/MusicPlayerTester";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MusicPlayerTesterTests/MusicPlayerTesterTests-Prefix.pch";
+				INFOPLIST_FILE = "MusicPlayerTesterTests/MusicPlayerTesterTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE8E1804139C2A1600BE8A73 /* Build configuration list for PBXProject "MusicPlayerTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8E183F139C2A1600BE8A73 /* Debug */,
+				CE8E1840139C2A1600BE8A73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE8E1841139C2A1600BE8A73 /* Build configuration list for PBXNativeTarget "MusicPlayerTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8E1842139C2A1600BE8A73 /* Debug */,
+				CE8E1843139C2A1600BE8A73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE8E1844139C2A1600BE8A73 /* Build configuration list for PBXNativeTarget "MusicPlayerTesterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8E1845139C2A1600BE8A73 /* Debug */,
+				CE8E1846139C2A1600BE8A73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE8E1801139C2A1600BE8A73 /* Project object */;
+}
